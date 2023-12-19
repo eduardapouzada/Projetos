@@ -1,0 +1,138 @@
+body{
+    background-color: lightgray;
+    font-family: "Poppiins", sans-serif;
+}
+
+div#interface{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+div#um:hover{
+    transform: translateY(2px);
+}
+
+div#um{
+    background-color: rgba(255, 255, 255);
+    height: 85vh;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(0, 0, 0, 0.11);
+    padding: 30px;
+    margin: 10px 20px 20px 20px;
+    width: 300px;
+    transition: all 0.3s ease-out;
+}
+
+div#dois:hover{
+    transform: translateY(2px);
+}
+
+div#dois{
+    background-color: rgb(255, 255, 255);
+    height: 85vh; 
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(0, 0, 0, 0.11);
+    padding: 30px;
+    margin: 10px 20px 20px 20px;
+    width: 300px;
+    transition: all 0.3s ease-out;
+    
+}
+
+div#tres:hover{
+    transform: translateY(2px);
+    /*cursor: pointer;*/
+}
+
+div#tres{
+    background-color: rgb(255, 255, 255);
+    height: 85vh; 
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(0, 0, 0, 0.11);
+    padding: 30px;
+    margin: 10px 20px 20px 20px;
+    width: 300px;
+    transition: all 0.3s ease-out;
+    
+}
+
+.imagem{
+    margin: -15px 0px 0px 20px;
+    align-items: center;
+    max-width: 300px;
+    border-radius: 5px;
+    
+}
+
+h3{
+    font-weight: 700;
+    padding: 10px 0px 15px 0px;
+}
+
+h4{
+    font-weight: 800;
+    font-size: 18pt;
+    margin: 18px 0px 60px 0px;
+}
+
+p.pequeno{
+    color: gray;
+    font-weight: 900;
+    font-size: 3pt;
+    padding: 5px; 
+    margin: 40px 0px -18px 0px;
+}
+
+p.pequeno2{
+    color: gray;
+    font-weight: 900;
+    font-size: 3pt;
+    padding: 5px; 
+    margin: -20px 0px 8px 0px;
+}
+
+
+
+ul{
+    margin: 15px 0px 25px -30px;
+}
+ul:hover{
+    border: 40px;
+}
+
+li{
+    display: inline;
+    padding: 2px;
+    border: 10px;
+}
+
+.circulo{
+    cursor: pointer;
+
+}
+
+button{
+    background-color: rgb(3, 168, 3);
+    border-radius: 15px;
+    border: none;
+    padding: 8px 60px 8px 65px;
+    cursor: pointer;
+}
+
+p.botao{
+    color: white;
+    font-size: 9pt;
+    font-weight: 600;
+}
+
+p.link a{
+    color: gray;
+    padding: 10px 0px 0px 25px;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
