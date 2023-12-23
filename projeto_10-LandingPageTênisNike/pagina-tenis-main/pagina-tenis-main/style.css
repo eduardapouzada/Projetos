@@ -31,7 +31,9 @@ img#nike{
 ul#links{ 
     background-color: yellow;
     grid-column: 2;
+    width: 80%;
     margin: 0 auto;
+    text-align: center;
 
     
 }
