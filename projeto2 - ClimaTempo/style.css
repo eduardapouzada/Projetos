@@ -18,15 +18,19 @@ main{
 h1{
   font-size: 37pt;
   color: rgb(0, 140, 255);
+  margin-bottom: 20px;
 }
 
 #input-cid{
   background-color: white;
   width: 40%; height: 58px;
-  border: none;
+  border: none; border-radius: 8px;
+  outline: none; 
+  font-size: 13pt;
+
 }
 
-input:active{
+#input-cid:focus {
   border: 2px solid rgb(0, 140, 255);
 }
 
@@ -35,6 +39,5 @@ input:active{
   width: 10%; height: 58px;
   border: none;
   border-radius: 8px;
-
-
+  font-size: 13pt;
 }
