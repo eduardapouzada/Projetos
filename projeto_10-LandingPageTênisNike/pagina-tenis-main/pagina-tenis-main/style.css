@@ -20,7 +20,7 @@
     background-color: white;
     width: 100%; height: 70px;
     display: grid;
-    grid-template-columns: 0.8fr 5fr 0.6fr;
+    grid-template-columns: 0.5fr 5fr 0.6fr;
 }
 
 img#nike{
@@ -38,7 +38,7 @@ ul#links{
 li{
     padding-top: 25px;
     display: inline-block;
-    width: 20%; height: 100%;
+    width: 15%; height: 100%;
 }
 
 li:hover{
@@ -71,4 +71,70 @@ a{
 #conteudo{
     width: 100%; height: 89.8%;
     background: linear-gradient(to right, #f1f1f1 50%, #66ccff 50%);
+}
+
+
+#conteudo{
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+}
+
+#conteudo #article-textos{
+    grid-column: 1;
+    margin: 0 auto;
+    width: 80%; 
+    text-align: center;
+    padding: 180px 0px 0px 100px;
+}
+
+#conteudo #article-textos p#titulo{
+    font-size: 36pt;
+    color: rgb(0, 0, 0, 0.8);
+    letter-spacing: 4px;
+    font-weight: none;
+}
+
+#conteudo #article-textos p#lancamento{
+    margin-top: 10px; 
+    color: rgba(0, 0, 0, 0.8);
+    letter-spacing: 2px;
+}
+
+#conteudo #article-textos p#preco{
+    color: rgba(0, 0, 0, 0.8);
+    margin: 20px 0px 35px 0px;
+    font-size: 18pt;
+    font-weight: 700;
+}
+
+#conteudo #article-textos #info-button{
+    width: 68%; height: 70px; 
+    display: flex; margin: 0 auto;
+
+}
+
+
+#conteudo #article-textos #button-detalhes{
+    background-color: gray; color: white;
+    border: none;
+    width: 40%; 
+    font-weight: 600;
+    font-size: 10pt;
+    transform: translateY(-5px);
+ 
+}
+
+#conteudo #article-textos #button-adicionar{
+    background-color: black; color: white;
+    border: none; 
+    width: 60%;
+    font-weight: 600;
+    font-size: 10pt;
+    transform: translateY(-5px);
+
+}
+
+
+#conteudo section{
+    grid-column: 2;
 }
