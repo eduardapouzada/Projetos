@@ -8,16 +8,21 @@
     font-family: 'Kanit', sans-serif;
 }
 
-body{ 
-    background-color: #f1f1f1;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#interface{
+    margin: 0 auto;
+    background-color: #FFF;
+    width: 99.5vw; height: 100vh;
+    border-radius: 6px;
+    box-shadow: 1px 1px 20px -8px black;
 }
 
-#interface{
-    background-color: #FFF;
-    width: 80%; height: 80%;
-    box
+#cabecalho{
+    background-color: white;
+    width: 100%; height: 80px;
+          
+}
+
+#conteudo{
+    width: 100%; height: auto;
+    background: linear-gradient(to right, #f1f1f1 50%, #66ccff 50%);
 }
