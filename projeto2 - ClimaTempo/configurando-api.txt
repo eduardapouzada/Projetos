@@ -1,0 +1,19 @@
+
+> Vamos usar API gratuita do openweathermap.
+
+1. Você deve criar sua conta:
+https://home.openweathermap.org/users/sign_up
+
+1.2 Após preencher e criar sua conta você precisa acessar seu email e ativar sua conta.
+
+2. Agora vamos criar sua Chave KEY para usar a API:
+https://home.openweathermap.org/api_keys
+
+2.1 Crie sua chave (KEY) ou caso já tenha 1 criada e acabou de criar espere uns 10 a 15 minutos
+para que essa chave comece a funcionar.
+
+2.2 Exemplo de rota para consultar o tempo:
+https://api.openweathermap.org/data/2.5/weather?q=São Paulo,SP,BR&lang=pt_br&appid=SUA-KEY
+
+* Todas temperatudas da api será retornado em Kelvin entao precisa converter para Celsius quando for mostrar 
+para o usuário.

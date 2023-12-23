@@ -1,0 +1,6 @@
+/* Realizando reset do css */
+*{
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
