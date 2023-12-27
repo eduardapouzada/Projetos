@@ -41,3 +41,11 @@ h1{
   border-radius: 8px;
   font-size: 13pt;
 }
+
+#button-pesquisar{
+  cursor: pointer;
+}
+
+#button-pesquisar:active{
+  background-color: rgb(240, 248, 248, 0.6); color: rgb(240, 248, 248, 0.6);
+}
